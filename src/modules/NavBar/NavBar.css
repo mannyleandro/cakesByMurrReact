@@ -1,0 +1,63 @@
+
+.navBar--container{
+    position: fixed;
+    top:0;
+    width: 100vw;
+    background-color: var(--dustyRose);
+    margin: 0;  
+    padding: 0;
+    height:8rem;
+}
+
+
+
+.navBar--dropMenu{
+
+    color: white;
+}
+
+.navBar--container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    min-width: fit-content;
+}
+
+.navBar--RaQ{
+    margin: auto 1.5rem;
+    color: white;
+    width: 9rem;
+    text-align: center;
+    margin-left: .1rem;
+    font-size: 1.4rem;
+
+}
+.navBar,a:hover{
+    color: var(--hoverPink);
+}
+
+.navBar,a{
+    text-decoration: none;
+    color: white;
+}
+*{
+/* border: 2px red solid; */
+}
+
+.navBar--Logo{
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+
+.navBar--dropMenu{
+
+    width: 2rem;
+    margin: auto;
+    margin-right: 1rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
